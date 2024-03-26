@@ -74,23 +74,23 @@ WSGI_APPLICATION = 'LifeBook.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-#DATABASES = {
- #   'default': {
-       # 'ENGINE': 'django.db.backends.mysql',
-      #  'NAME': 'if0_36198848_01',
-     #   'USER': 'if0_36198848',
-    #    'PASSWORD': 'NoL6V2ul28',
-   #     'HOST': 'sql210.infinityfree.com',
-  #      'PORT': '3306'
- #   }
-#}
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+   'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'if0_36198848_01',
+        'USER': 'if0_36198848',
+        'PASSWORD': 'NoL6V2ul28',
+        'HOST': 'sql210.infinityfree.com',
+        'PORT': '3306'
     }
 }
+
+#DATABASES = {
+#    'default': {
+ #       'ENGINE': 'django.db.backends.sqlite3',
+ #       'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
