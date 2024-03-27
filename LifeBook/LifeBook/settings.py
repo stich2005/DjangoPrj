@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'LifeBook.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'if0_36198848_01',
-        'USER': 'if0_36198848',
-        'PASSWORD': 'NoL6V2ul28',
-        'HOST': 'sql210.infinityfree.com',
+        'NAME': 'djangoprj4',
+        'USER': 'first_python4',
+        'PASSWORD': 'first_python4',
+        'HOST': 'db4free.net',
         'PORT': '3306'
     }
 }
